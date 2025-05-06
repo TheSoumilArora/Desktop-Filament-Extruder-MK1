@@ -1,7 +1,6 @@
 #ifndef CONFIGURATION_H
 #define CONFIGURATION_H
 
-
 /*Notes for to dos
 * Basic motion control - complete
 * Come up with right settings steps/mm, acceleration, and feed rate to get good behavior - complete

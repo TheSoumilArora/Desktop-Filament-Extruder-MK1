@@ -1,11 +1,6 @@
 /*
   temperature.c - temperature control
-  Marlin code modified for Mackerel
- 
- 
-
  */
-
 
 #include "MK1.h"
 #include "ultralcd.h"

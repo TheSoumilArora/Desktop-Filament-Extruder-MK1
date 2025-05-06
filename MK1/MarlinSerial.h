@@ -1,24 +1,3 @@
-/*
-  HardwareSerial.h - Hardware serial library for Wiring
-  Copyright (c) 2006 Nicholas Zambetti.  All right reserved.
-
-  This library is free software; you can redistribute it and/or
-  modify it under the terms of the GNU Lesser General Public
-  License as published by the Free Software Foundation; either
-  version 2.1 of the License, or (at your option) any later version.
-
-  This library is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-  Lesser General Public License for more details.
-
-  You should have received a copy of the GNU Lesser General Public
-  License along with this library; if not, write to the Free Software
-  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-
-  Modified 28 September 2010 by Mark Sproul
-*/
-
 #ifndef MarlinSerial_h
 #define MarlinSerial_h
 #include "MK1.h"
@@ -126,11 +105,9 @@ class MarlinSerial //: public Stream
       }
     }
     
-    
     private:
     void printNumber(unsigned long, uint8_t);
     void printFloat(double, uint8_t);
-    
     
   public:
     
@@ -139,7 +116,6 @@ class MarlinSerial //: public Stream
       while (*str)
         write(*str++);
     }
-
 
     FORCE_INLINE void write(const uint8_t *buffer, size_t size)
     {

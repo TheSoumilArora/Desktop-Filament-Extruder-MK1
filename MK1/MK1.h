@@ -1,6 +1,3 @@
-// Tonokip RepRap firmware rewrite based off of Hydra-mmm firmware.
-// License: GPL
-
 #ifndef MACKEREL_H
 #define MACKEREL_H
 
@@ -97,7 +94,6 @@ FORCE_INLINE void serialprintPGM(const char *str)
     ch=pgm_read_byte(++str);
   }
 }
-
 
 void get_command();
 void process_commands();

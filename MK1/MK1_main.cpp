@@ -1,23 +1,3 @@
-/* -*- c++ -*- */
-
-/*
- MACKEREL - Filament Extruder firmware based on Marlin for repraps.
- Copyright (C) 2014 Filip Mulier/Hugh Lyman
-
- This program is free software: you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation, either version 3 of the License, or
- (at your option) any later version.
-
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
-
- You should have received a copy of the GNU General Public License
- along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
 /*
  This firmware was designed in conjunction with Hugh Lyman to control a Lyman filament extruder
  with geared stepper motors. It is currently designed to support the RAMPS 1.4 with Smart LCD 2004
@@ -28,9 +8,6 @@
  
  This firmware is based on Marlin 3D Printer Firmware but also has many original parts.
   (https://github.com/ErikZalm/Marlin)
- 
- Marlins eat Mackerels, 3D printers eat filament. 
-
  */
 
 #include "MK1.h"
@@ -69,9 +46,6 @@
 #endif
 
 #define VERSION_STRING  "1.0.0"
-
-// look here for descriptions of G-codes: http://linuxcnc.org/handbook/gcode/g-code.html
-// http://objects.reprap.org/wiki/Mendel_User_Manual:_RepRapGCodes
 
 //Implemented Codes
 //-------------------
